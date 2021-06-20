@@ -27,11 +27,3 @@ def makepath(path: str):
             print(err)
             return -1
     return 1
-
-
-#  path = input() # example : r"C:\\catalog1\\catalog2\\catalog3"
-# test_path = r"X:\catalog1\catalog2\catalog3"
-test_path = r"C:\\catalog1\\catalog2\\catalog3"
-
-a = makepath(test_path)
-print(a)
